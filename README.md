@@ -1,4 +1,5 @@
 # 🎬 Creator Engagement & Watch-Time Predictive Engine
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtube-performance-predictor.streamlit.app/)
 
 An end-to-end Machine Learning pipeline and interactive simulation platform designed to forecast YouTube video performance metrics using optimized gradient boosting architectures.
 
