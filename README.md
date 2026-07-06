@@ -63,12 +63,10 @@ Follow these steps to deploy the application environment locally:
    ```bash
    pip install -r requirements.txt
 
-3 **Launch the Interactive Dashboard:**
+3. **Launch the Interactive Dashboard:**
    ```bash
    streamlit run app.py
 
 The local server will automatically initialize in your default web browser at http://localhost:8501.
 
 Developed by Apoorva I U as an automated machine learning evaluation framework.
-
-   
