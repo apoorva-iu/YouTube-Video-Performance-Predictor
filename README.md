@@ -7,7 +7,7 @@ An end-to-end Machine Learning pipeline and interactive simulation platform desi
 
 ## 💻 Dashboard Interface Preview
 
-🚀 **Click Here to Access the Live Running Predictive Application** 
+🚀 **Click Here to Access the Live Running Predictive Application** <br>
 **https://youtube-performance-predictor.streamlit.app/**
 
 ## Interactive Simulation Dashboard Workspace
