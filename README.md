@@ -4,37 +4,38 @@ An end-to-end Machine Learning pipeline and interactive simulation platform desi
 
 ---
 
-## 🎯 Project Overview
-Building an audience on digital video platforms traditionally requires manual analysis and intuitive guesswork. This project automates performance forecasting by combining a backend **XGBoost Regressor** with a live **Streamlit** user interface. Creators can dynamically tune target video production metrics—such as thumbnail click-through rate, reach impressions, and base duration—to simulate and optimize watch-time parameters before entering production.
+## 💻 Dashboard Interface Preview
 
-### 🚀 Key Features
-* **Predictive Performance Pipeline:** Leverages an optimized XGBoost engine to predict overall performance metrics.
-* **Feature Engineering Pipeline:** Transforms baseline creator data into high-value engineered metrics including `engagement_rate` and `avg_view_percentage`.
-* **Interactive UI Simulation:** A responsive, live creator workspace utilizing interactive sliders to generate immediate production inference values.
-* **Exploratory Data Visualization:** Integrated statistical charts modeling feature distributions, scatter relations, and variable correlations.
+Add your full Streamlit running interface screenshot right here to capture a viewer's attention immediately:
+## Interactive Simulation Dashboard Workspace
+<img width="1320" height="772" alt="image" src="https://github.com/user-attachments/assets/e5da4f08-121b-424a-8430-bdac7e1b4a82" />
 
----
-
-## 💻 Dashboard Interface
-
-Add a screenshot of your beautiful live running Streamlit interface here to capture immediate attention:
-## Interactive Simulation Dashboard
-<img width="1320" height="772" alt="image" src="https://github.com/user-attachments/assets/b2b9781d-2ff6-4166-b074-054871a882c7" />
-<img width="1046" height="732" alt="image" src="https://github.com/user-attachments/assets/e56f5f60-cde5-4590-8411-ed79d92fc3de" />
+<img width="1046" height="732" alt="image" src="https://github.com/user-attachments/assets/f0eab278-b525-40d6-bdf0-bb561b3933b4" />
 
 
 ---
 
-## 📊 Automated Data Insights & Evaluation
-The machine learning pipeline automatically executes complete Exploratory Data Analysis (EDA) and generates visualization models during training to evaluate feature correlations and target metrics:
+## 🔄 Interactive Dashboard Architecture (Dynamic Simulations)
+The frontend core utilizes a **dynamic simulation framework** where plots are recalculated and rendered live by the execution engine every single time a production slider parameter is updated by a user. These calculations map real-time hypothetical target variations:
+
+1. **Dynamic Retention Decay Pathway:** Computes viewer audience drop-off over an interactive video timeline.
+<img width="1012" height="656" alt="image" src="https://github.com/user-attachments/assets/a86e1856-bc3a-47a1-960f-44dc20e034f0" />
+
+2. **Dynamic Proportional Engagement Density:** Evaluates ratios of user actions (Likes/Comments/Shares) calculated dynamically relative to specific reach volumes.
+<img width="1102" height="501" alt="image" src="https://github.com/user-attachments/assets/e40602b0-a14a-46a6-8949-97d107313702" />
+
+---
+
+## 📊 Pipeline Evaluation Foundations (Static Analytics)
+While the frontend user interface focuses on real-time modeling, the underlying machine learning pipeline automatically executes complete Exploratory Data Analysis (EDA) during training. These **static charts** represent absolute snapshot insights captured directly from the historical baseline training dataset and do not modify based on UI inputs:
 
 ### 📉 Feature Performance Matrix
 
-| 📊 1. Watch Time Distribution | 📉 2. CTR vs. Watch Time Scatter |
+| 📊 1. Static Watch-Time Distribution Range | 📉 2. Static CTR vs. Watch Time Linearity |
 | :---: | :---: |
 | ![Distribution Chart](graph_1_distribution.png) | ![Scatter Plot](graph_2_scatter.png) |
 
-| 🌡️ 3. Feature Contribution Heatmap |
+| 🌡️ 3. Static Feature Contribution Heatmap (Pearson Correlation Matrix) |
 | :---: |
 | ![Heatmap Matrix](graph_3_heatmap.png) |
 
@@ -55,5 +56,5 @@ Follow these steps to deploy the application environment locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git)
+   git clone 
    cd youtube_analytics
