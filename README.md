@@ -56,5 +56,19 @@ Follow these steps to deploy the application environment locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone 
+   git clone https://github.com/apoorva-iu/YouTube-Video-Performance-Predictor.git
    cd youtube_analytics
+
+2. **Install Required Runtime Libraries:**
+   ```bash
+   pip install -r requirements.txt
+
+3 **Launch the Interactive Dashboard:**
+   ```bash
+   streamlit run app.py
+
+The local server will automatically initialize in your default web browser at http://localhost:8501.
+
+Developed by Apoorva I U as an automated machine learning evaluation framework.
+
+   
