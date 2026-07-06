@@ -167,3 +167,13 @@ if st.button("Execute Production Inference Evaluation", type="primary", use_cont
         """, unsafe_allow_html=True)
     else:
         st.info("Provide parameter values above 0 to generate engagement density distributions.")
+        # GRAPH 3: FEATURE CONTRIBUTION HEATMAP
+    # ----------------------------------------------------
+    st.markdown("---")
+    st.subheader("3. Feature Contribution Heatmap")
+    st.write("Correlation matrix mapping feature interactions against total watch time:")
+    
+    try:
+        st.image("graph_3_heatmap.png", use_container_width=True, caption="Feature Correlation Analysis Matrix")
+    except FileNotFoundError:
+        st.warning("⚠️ 'graph_3_heatmap.png' not found in your folder. Run your Jupyter notebook cell to regenerate it.")
