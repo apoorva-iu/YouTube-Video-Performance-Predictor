@@ -7,16 +7,16 @@ An end-to-end Machine Learning pipeline and interactive simulation platform desi
 
 ## 💻 Dashboard Interface Preview
 
-🚀 **Click Here to Access the Live Running Predictive Application(https://youtube-performance-predictor.streamlit.app/)**
+🚀 **Click Here to Access the Live Running Predictive Application** 
+**https://youtube-performance-predictor.streamlit.app/**
 
-![Interactive Simulation Dashboard Workspace](dashboard_preview.png)
+## Interactive Simulation Dashboard Workspace
 
 Add your full Streamlit running interface screenshot right here to capture a viewer's attention immediately:
-## Interactive Simulation Dashboard Workspace
+
 <img width="1320" height="772" alt="image" src="https://github.com/user-attachments/assets/e5da4f08-121b-424a-8430-bdac7e1b4a82" />
 
 <img width="1046" height="732" alt="image" src="https://github.com/user-attachments/assets/f0eab278-b525-40d6-bdf0-bb561b3933b4" />
-
 
 ---
 
